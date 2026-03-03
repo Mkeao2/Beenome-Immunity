@@ -1,0 +1,90 @@
+Family,Species,Original distribution,Diet_broad,Diet_narrow,Nesting_position,Nesting_substrate,Sociality
+Megachilidae,Anthidium_emarginatum,North America,Generalist,,Above,Cavities,Solitary
+Megachilidae,Anthidium_manicatum,Europe,Generalist,,Above,Cavities,Solitary
+Megachilidae,Anthidium_oblongatum,Mediterranean and Central Asia,Generalist,,Above,Cavities,Solitary
+Megachilidae,Anthidium_palmarum,North America,Generalist,,Above,Cavities,Solitary
+Apidae,Euglossa_dilemma,Central America,Generalist,,Above,Cavities,Facultatively social
+Apidae,Euglossa_viridissima,Central America,Generalist,,Above,Cavities,Facultatively social
+Apidae,Eulaema_meriana,Neotropics,Generalist,,Above,Cavities,Solitary or communal
+Apidae,Eulaema_nigrita,Neotropics,Generalist,,Above,Cavities,Solitary or communal
+Apidae,Eulaema_polychroma,Neotropics,Generalist,,Above,Cavities,
+Colletidae,Hylaeus_modestus,North America,Generalist,,Above,Cavities,Solitary
+Colletidae,Hylaeus_ornatus,North America,,,Above,Cavities,Solitary
+Colletidae,Hylaeus_punctatus,Europe,Generalist,,Above,Cavities,Solitary
+Megachilidae,Megachile_rotundata,Europe and Asia,Generalist,,Above,Cavities,Solitary
+Megachilidae,Megachile_sculpturalis,Asia,Generalist,,Above,Cavities,Solitary
+Megachilidae,Megachile_xylocopoides,North America,Generalist,,Above,Cavities,Solitary
+Megachilidae,Osmia_bruneri,North America,Generalist,,Both,Cavities,Solitary
+Megachilidae,Osmia_cornifrons,Eastern Asia,Generalist,,Above,Cavities,Solitary
+Megachilidae,Osmia_georgica,North America,Generalist,,Above,Cavities,Solitary
+Megachilidae,Osmia_lignaria,North America,Generalist,,Both,Cavities,Solitary
+Megachilidae,Osmia_lignaria_lignaria,North America,Generalist,,Both,Cavities,Solitary
+Megachilidae,Osmia_ribifloris,North America,Generalist,,Above,Cavities,Solitary
+Megachilidae,Osmia_taurus,Eastern Asia,Generalist,,Above,Cavities,Solitary
+Halictidae,Augochlora_pura,North America,Generalist,,Above,Decaying wood,Solitary
+Halictidae,Agapostemon_virescens,North America,Generalist,,Below,Ground,Solitary to communal
+Andrenidae,Ancylandrena_larreae,Central and North America,Specialist,,Below,Ground,Solitary
+Andrenidae,Andrena_cerasifolii,North America,Generalist,,Below,Ground,Solitary
+Andrenidae,Andrena_cressonii_cressonii,North America,Generalist,,Below,Ground,Solitary
+Andrenidae,Andrena_fenningeri,North America,,,Below,Ground,Solitary
+Andrenidae,Andrena_milwaukeensis,North America,Generalist,,Below,Ground,Solitary
+Apidae,Anthophora_californica,North America,Generalist,,Below,Ground,Solitary
+Apidae,Anthophora_urbana,North America,Generalist,,Below,Ground,Solitary
+Apidae,Anthophorula_asteris,North America,,,Below,Ground,Solitary
+Halictidae,Augochlorella_aurata,North America,Generalist,,Below,Ground,Facultatively social
+Halictidae,Augochloropsis_metallica,North America,Generalist,,Below,Ground,Facultatively social
+Apidae,Bombus_affinis,North America,Generalist,,Below,Ground,Solitary
+Apidae,Bombus_bimaculatus,North America,Generalist,,Below,Ground,Social
+Apidae,Bombus_californicus,North America,Generalist,,Below,Ground,Social
+Apidae,Bombus_ephippiatus,Mexico,Generalist,,Below,Ground,Social
+Apidae,Bombus_fraternus,North America,Generalist,,Below,Ground,Social
+Apidae,Bombus_griseocollis,North America,Generalist,,Below,Ground,Social
+Apidae,Bombus_impatiens,North America,Generalist,Broad polylectic,Below,Ground,Social
+Apidae,Bombus_occidentalis,North America,Generalist,,Below,Ground,Social
+Apidae,Bombus_pensylvanicus,North America,Generalist,,Below,Ground,Social
+Apidae,Bombus_sonorus,North America,Generalist,,Below,Ground,Social
+Apidae,Bombus_vosnesenskii,North America,Generalist,,Below,Ground,Social
+Andrenidae,Calliopsis_andreniformis,North America,Generalist,Narrow polylectic,Below,Ground,Solitary
+Apidae,Centris_pallida,North America,Generalist,,Below,Ground,Solitary
+Colletidae,Colletes_inaequalis,North America,Generalist,,Below,Ground,Solitary
+Colletidae,Colletes_latitarsis,North America,Specialist,,Below,Ground,Solitary
+Colletidae,Colletes_simulans,North America,Specialist,,Below,Ground,Solitary
+Colletidae,Colletes_ultravalidus,North America,Specialist,,Below,Ground,Solitary
+Stenotritidae,Ctenocolletes_nigricans,Australia,,,Below,Ground,Solitary
+Stenotritidae,Ctenocolletes_smaragdinus,Australia,,,Below,Ground,Solitary
+Apidae,Diadasia_enavata,North America,Specialist,Monolectic (Helianthus),Below,Ground,Solitary
+Apidae,Florilegus_condignus,North America,Specialist,,Below,Ground,Solitary
+Apidae,Habropoda_laboriosa,North America,Generalist,,Below,Ground,Solitary
+Apidae,Habropoda_pallida,North America,Generalist,,Below,Ground,Solitary
+Halictidae,Halictus_confusus,North America,Generalist,,Below,Ground,Social
+Halictidae,Halictus_ligatus,North America,Generalist,,Below,Ground,Social
+Halictidae,Halictus_rubicundus,North America,Generalist,,Below,Ground,Facultatively social
+Halictidae,Halictus_tripartitus,North America,Generalist,,Below,Ground,Social
+Halictidae,Lasioglossum_baleicum,Asia,,,Below,Ground,Facultatively social
+Halictidae,Lasioglossum_leucozonium,Europe and northern China,Generalist,,Below,Ground,Solitary to communal
+Halictidae,Lasioglossum_lustrans,North America,Specialist,,Below,Ground,Solitary
+Halictidae,Lasioglossum_zephyrum,North America,Generalist,,Below,Ground,Facultatively social
+Melittidae,Macropis_nuda,North America,Specialist,Monolectic (Lysimachia),Below,Ground,Solitary
+Andrenidae,Megandrena_mentzeliae,North America,Specialist,,Below,Ground,Solitary
+Apidae,Melissodes_bimaculatus,North America,Generalist,,Below,Ground,Solitary
+Apidae,Melissodes_comptoides,North America,Generalist,,Below,Ground,Solitary
+Apidae,Melissodes_denticulatus,North America,Specialist,,Below,Ground,Solitary
+Apidae,Melissodes_desponsus,North America,Specialist,,Below,Ground,Solitary
+Apidae,Melissodes_trinodis,North America,Specialist,,Below,Ground,Solitary
+Apidae,Melitoma_taurea,North America,Specialist,Monolectic (Ipomoea),Below,Ground,Solitary
+Andrenidae,Mesoxaea_nigerrima,Mexico + US,,,Below,Ground,Solitary
+Halictidae,Nomia_melanderi,North America,Generalist,,Below,Ground,Solitary
+Halictidae,Nomia_nortoni,North America,,,Below,Ground,Solitary
+Andrenidae,Panurginus_polytrichus,North America,Generalist,,Below,Ground,Solitary
+Andrenidae,Protandrena_mexicanorum,Mexico + US,,,Below,Ground,Solitary
+Andrenidae,Protandrena_passiflorae,North America,Specialist,Monolectic,Below,Ground,Solitary
+Apidae,Ptilothrix_bombiformis,North America,Specialist,Monolectic (Hibiscus),Below,Ground,Solitary
+Apidae,Svastra_obliqua,North America,Specialist,,Below,Ground,Solitary
+Megachilidae,Trachusa_larreae,North America,Generalist,,Below,Ground,Solitary
+Apidae,Xenoglossa_pruinosa,North America,Specialist,Monolectic,Below,Ground,Solitary
+Apidae,Xenoglossa_utahensis,North America,Specialist,Monolectic,Below,Ground,Solitary
+Apidae,Xenoglossa_strenua,North America,Specialist,Monolectic,Below,Ground,Solitary
+Megachilidae,Megachile_mendica,North America,Generalist,,Above,Cavities,Solitary
+Halictidae,Lasioglossum_vierecki,North America,Generalist,,Below,Ground,Solitary
+Apidae,Anthophora_abrupta,North America,Generalist,,Below,Vertical banks,Solitary
+Apidae,Anthophora_villosula,Eastern Asia,Generalist,,Below,Vertical banks,Solitary
