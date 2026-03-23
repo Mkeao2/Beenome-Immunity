@@ -30,7 +30,7 @@ immune_orthogroups <- orthogroups %>%
 # Transform counts to presence/absence matrix
 # -------------------------------------------
 
-presence_mat <- orthogroups
+presence_mat <- immune_orthogroups
 
 presence_mat[,-1] <- ifelse(is.na(presence_mat[,-1]), 0, 1)
 
@@ -55,15 +55,15 @@ scores <- as.data.frame(pcoa$points)
 scores$Species <- rownames(scores)
 colnames(scores)[1:2] <- c("PCoA1", "PCoA2")
 
-scores2 <- left_join(scores, family_map, by = "Species")
+scores2 <- left_join(scores, nesting_map, by = "Species")
 
 #removes rows with missing values
-scores2 <- scores2 %>% filter(!is.na(Family))
+scores2 <- scores2 %>% filter(!is.na(Nesting_substrate))
 
-string_to_remove <- "Semisocial" 
-scores2 <- scores2 %>% filter(!grepl(string_to_remove, Sociality))
+string_to_remove <- "N/A" 
+scores2 <- scores2 %>% filter(!grepl(string_to_remove, Nesting_substrate))
 
-# Variance explained
+# Variance explained# Variance explainedSociality
 var_exp <- round(pcoa$eig / sum(pcoa$eig) * 100, 1)
 
 # ----------------------------
@@ -73,27 +73,27 @@ var_exp <- round(pcoa$eig / sum(pcoa$eig) * 100, 1)
 ord_dist <- dist(scores2[, c("PCoA1", "PCoA2")])
 
 # PERMANOVA
-adonis2(ord_dist ~ Family, data = scores2, permutations = 999)
+adonis2(ord_dist ~ Nesting_substrate, data = scores2, permutations = 999)
 
 # ----------------------------
 # Plot
 # ----------------------------
   
-ggplot(scores2, aes(PCoA1, PCoA2, color = Family, label = Family)) +
+ggplot(scores2, aes(PCoA1, PCoA2, color = Nesting_substrate, label = Nesting_substrate)) +
   geom_point(size = 2) +
   #geom_text(vjust = -0.6, size = 3) +
   theme_bw() +
   labs(
-    title = "PCoA of Gene Overlap by Family - All Orthogroups",
+    title = "PCoA of Gene Overlap by Nesting Substrate - Immune Orthogroups",
     x = paste0("PCoA1 (", var_exp[1], "%)"),
     y = paste0("PCoA2 (", var_exp[2], "%)"),
-    color = "Sociality"
+    color = "Nesting Substrate"
   ) + 
-  annotate("text", x = 0.05, y = 0.05,
+  annotate("text", x = 0.020, y = 0.05,
            label = "R^2 == 0.02", 
            parse = TRUE) +
-  annotate("text", x = 0.05, y = 0.037,
-           label = "P == 0.56", 
+  annotate("text", x = 0.020, y = 0.037,
+           label = "P == 0.77", 
            parse = TRUE)
            hjust = 0.1, vjust = 1)
 
